@@ -1,11 +1,67 @@
 {
     "posts": [
         {
-            "no": 1,
+            "id": 1,
             "title": "중요 사안",
             "content": "오늘의 점심 메뉴는?",
-            "pros": [],
-            "cons": []
+            "options": [
+                {
+                    "id": 1,
+                    "name": "한식",
+                    "count": 3,
+                    "detail": [
+                        {
+                            "member_id": "jihoon",
+                            "vote": 3
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "중식",
+                    "count": 1,
+                    "detail": [
+                        {
+                            "member_id": "byungho",
+                            "vote": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "일식",
+                    "count": 2,
+                    "detail": [
+                        {
+                            "member_id": "sungjae",
+                            "vote": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "중요하지 않은 사안",
+            "content": "오늘의 퇴근 시간은?",
+            "options": [
+                {
+                    "id": 1,
+                    "name": "19시",
+                    "count": 0,
+                    "detail": [
+                        
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "21시",
+                    "count": 0,
+                    "detail": [
+                        
+                    ]
+                }
+            ]
         }
     ]
 }
